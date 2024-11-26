@@ -3,6 +3,7 @@ name = "AS-chat-bot"
 version = "1.0.0"
 description = ""
 authors = ["Maxim Nelin <nelin.max0@gmail.com>"]
+package-mode = false
 
 [tool.poetry.scripts]
 
@@ -10,7 +11,6 @@ authors = ["Maxim Nelin <nelin.max0@gmail.com>"]
 python = "3.10.x"
 numpy = "^1.22.4"
 pandas = "^1.4.2"
-sklearn = "^0.0"
 matplotlib = "^3.5.2"
 aiogram = "^2.20"
 python-dotenv = "^0.20.0"
@@ -22,6 +22,7 @@ python-socketio = {extras = ["asyncio_client"], version = "^5.6.0"}
 requests = "^2.28.0"
 exchangelib= {file = "exchangelib-4.9.0-py2.py3-none-any.whl" }
 pymorphy2 = "^0.9.1"
+scikit-learn = "^1.5.2"
 
 
 
