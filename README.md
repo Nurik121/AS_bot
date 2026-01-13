@@ -63,3 +63,15 @@ ps -aux | grep 'python -m src.main'
 ```shell
 kill PID
 ```
+
+
+
+#### Development
+pip install poetry
+poetry env use C:\Users\User\AppData\Local\Programs\Python\Python310\python.exe 
+
+# Create virtualvenv .venv local
+poetry config virtualenvs.in-project true
+poetry install
+poetry install --only main
+poetry run python -m src.main
